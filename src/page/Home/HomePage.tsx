@@ -11,7 +11,6 @@ import {
   Paper,
   Avatar,
   Chip,
-  IconButton,
   Fade,
   Slide,
   Zoom,
@@ -225,21 +224,21 @@ const HomePage: React.FC = () => {
 
   const testimonials = [
     {
-      name: "BS. Nguyễn Văn A",
+      name: "BS. Nguyễn Thanh Hoài",
       role: "Trưởng khoa Da liễu",
       avatar: "👨‍⚕️",
       text: "Hệ thống AI này đã giúp chúng tôi chẩn đoán nhanh chóng và chính xác hơn rất nhiều.",
       rating: 5,
     },
     {
-      name: "BS. Trần Thị B",
+      name: "BS. Nguyễn Thanh Hoài",
       role: "Bác sĩ X-quang",
       avatar: "👩‍⚕️",
       text: "Công nghệ tuyệt vời! Tiết kiệm thời gian và nâng cao chất lượng chẩn đoán.",
       rating: 5,
     },
     {
-      name: "Nguyễn Minh C",
+      name: "Nguyễn Minh Quân",
       role: "Bệnh nhân",
       avatar: "👤",
       text: "Rất hài lòng với dịch vụ. Kết quả nhanh chóng và chính xác.",
