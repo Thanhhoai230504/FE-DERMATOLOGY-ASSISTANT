@@ -25,7 +25,6 @@ import {
   Heart,
   Stethoscope,
   Brain,
-  Eye,
   Activity,
   Users,
   Award,
@@ -34,10 +33,7 @@ import {
   Sparkles,
   ArrowRight,
   Star,
-  TrendingUp,
-  CheckCircle,
   MessageCircle,
-  Camera,
   Scan,
   Bot,
   Zap,
@@ -147,7 +143,6 @@ const slideInRight = keyframes`
 const HomePage: React.FC = () => {
   const navigate = useNavigate();
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const [visibleCards, setVisibleCards] = useState<number[]>([]);
   const [statsVisible, setStatsVisible] = useState(false);
 

@@ -97,6 +97,7 @@ const PredictionResults: React.FC<PredictionResultsProps> = ({
     };
 
     fetchRecommendations();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [results, dispatch]);
   const chatbotLoading = useSelector(
     (state: RootState) => state.chatBotState.loading
