@@ -15,8 +15,6 @@ import {
   Slide,
   Zoom,
   Grow,
-  useTheme,
-  useMediaQuery,
   Divider,
   Fab,
 } from "@mui/material";
@@ -142,7 +140,6 @@ const slideInRight = keyframes`
 
 const HomePage: React.FC = () => {
   const navigate = useNavigate();
-  const theme = useTheme();
   const [visibleCards, setVisibleCards] = useState<number[]>([]);
   const [statsVisible, setStatsVisible] = useState(false);
 
