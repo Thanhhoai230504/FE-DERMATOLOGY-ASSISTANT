@@ -3,8 +3,8 @@ import axios from "axios";
 
 const axiosClient = axios.create({
 
-   baseURL: "http://127.0.0.1:8000", // Replace with your API base URL
-   timeout: 10000,
+   baseURL: "https://thanhhoai23-dermatology-hospital-api.hf.space",
+   timeout: 120000, // 120s - Space có thể mất vài phút để khởi động nếu đang ngủ
 });
 
 // Add request interceptor
